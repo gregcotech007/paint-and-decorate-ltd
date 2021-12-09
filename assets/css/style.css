@@ -72,10 +72,10 @@ header li {
     display: inline;
     padding: 0 20px 0 20px;
 }
-header #company {
+.company {
     float: left;
 }
-header #company h1 {
+.company h1 {
     margin: 0;
 }
 header nav {
