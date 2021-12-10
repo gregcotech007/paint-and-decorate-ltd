@@ -10,21 +10,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="banner">
-                <a href="index.html"><h1><span class="highlight">Wayne's </span>Paint & Decorate Ltd</h1></a>
-            </div>
-            <!-- Navigation Bar linked to each menu bar item -->
-            <nav>
-                <ul>
+    <header class="header">
+        <!-- <div class="container">
+            <div class="logo"> -->
+                <a href="index.html" class="logo"><h1><span class="highlight">Wayne's </span>Paint & Decorate Ltd</h1></a>
+            <!-- </div> -->
+            <!-- Burger menu Navigation -->
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+    <ul class="menu">
+        <li class="current"><a href="index.html" aria-label="Go to Home page">Home</a></li>
+            <li><a href="#" aria-label="Go to About Us page">About</a></li>
+            <li><a href="#" aria-label="Go to Gallery page">Gallery</a></li>
+            <li><a href="#" aria-label="Go to Services page">Services</a></li>
+    </ul>
+
+
+      <!-- <nav>
+                <ul class="menu">
                     <li class="current"><a href="index.html" aria-label="Go to Home page">Home</a></li>
                     <li><a href="about-us.html" aria-label="Go to About Us page">About Us</a></li>
                     <li><a href="gallery.html" aria-label="Go to Gallery page">Gallery</a></li>
                     <li><a href="services.html" aria-label="Go to Services page">Services</a></li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
     </header>
     <!-- Landing page with image and overlay text -->
     <section id="hero">
@@ -45,22 +55,22 @@
     </section> -->
 
     <!-- Testimonial section with customer reviews -->
-    <section id="testimonial">
+    <section class="testimonial">
         <div class="container">
             <h2>Testimonials</h2>
-        <div id="test-review">
+        <div class="test-review">
             <img src="/assets/images/senr-man-woman.jpg" alt="Happy senior woman and man express positive emotions pose together being still in love isolated over blue wall" style="width: 90px">
             <p><span>Rosie & Jim.</span> Tipperary.</p>
             <p>We are delighted with the work that was carried out at our home. The staff were very friendly and Professional.</p>
           </div>
           
-          <div id="test-review">
+          <div class="test-review">>
             <img src="/assets/images/man-woman.jpg" alt="Fun 3d cartoon teenage kids" style="width: 90px">
             <p><span>Jack & Jill.</span> Dublin.</p>
             <p>The staff at Paint & Decorate made an amazing transformation to our house renovation. The colours brought it to life. Thank you so much.</p>
           </div>
           
-          <div id="test-review">
+          <div class="test-review">>
             <img src="/assets/images/fashionista.jpg" alt="Beautiful young blonde woman in sunglasses and a hat with packages" style="width: 90px">
             <p><span>Fashionista.</span> Offaly.</p>
             <p>Paint & Decorate painted our shop front and we are delighted with the results.
